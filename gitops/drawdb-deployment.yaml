@@ -53,7 +53,7 @@ spec:
       paths:
       - path: /
         pathType: Prefix
-        backEnd:
+        backend:
           service:
             name: drawdb
             port:
